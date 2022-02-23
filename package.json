@@ -1,0 +1,24 @@
+{
+    "name": "ozon_glo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "watch": "webpack --watch --mode=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antocsan/OZON_GLO.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/antocsan/OZON_GLO/issues"
+    },
+    "homepage": "https://github.com/antocsan/OZON_GLO#readme",
+    "devDependencies": {
+        "webpack": "^5.69.1",
+        "webpack-cli": "^4.9.2"
+    }
+}
