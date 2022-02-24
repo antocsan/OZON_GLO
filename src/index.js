@@ -1,8 +1,9 @@
 import cart from "./modules/cart";
-import getData from "./modules/getData";
-import second from "./modules/second";
-import postData from "./modules/postData";
+import load from "./modules/load";
+import search from "./modules/search";
+import catalog from "./modules/catalog";
 
 cart()
-    // getData()
-second()
+load()
+search()
+catalog()

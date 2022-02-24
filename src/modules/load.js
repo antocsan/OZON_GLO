@@ -1,12 +1,11 @@
 import getData from "./getData"
-import postData from "./postData";
+import renderGoods from "./renderGoods";
 
-const second = () => {
+const load = () => {
     const catrBtn = document.getElementById('cart')
 
-
     getData().then((data) => {
-        console.log(data);
+        renderGoods(data)
 
     })
 
@@ -15,4 +14,4 @@ const second = () => {
 }
 
 
-export default second
+export default load
