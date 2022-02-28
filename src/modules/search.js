@@ -9,7 +9,7 @@ const search = () => {
         const value = event.target.value
 
         getData().then((data) => {
-            renderGoods(searchFilters(data))
+            renderGoods(searchFilters(data, value))
         })
     })
 
